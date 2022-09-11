@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana de Arte Moderna</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    
+    <div class="container" id="fullDiv">
+        <div class="row" id="topDiv">   
+          <p>Selecione a única pintura que NÃO foi feita por uma </p>
+          <h1>Inteligência Artifical</h1>
+        </div>
+        <div class="row text-center imageRow">
+          <div class="col"><input type="image" src="img1.png" class="imgBtn" id="btn1" onclick="clickImgBtn('btn1')"/></div>
+          <div class="col"><input type="image" src="img2.png" class="imgBtn" id="btn2" onclick="clickImgBtn('btn2')"/></div>
+          <div class="col"><input type="image" src="img3.png" class="imgBtn" id="btn3" onclick="clickImgBtn('btn3')"/></div>
+        </div>
+        <div class="row text-center imageRow">
+          <div class="col"><input type="image" src="img4.png" class="imgBtn" id="btn4" onclick="clickImgBtn('btn4')"/></div>
+          <div class="col"><input type="image" src="img5.png" class="imgBtn" id="btn5" onclick="clickImgBtn('btn5')"/></div>
+          <div class="col"><input type="image" src="imgTrue.png" class="imgBtn" id="btnTrue" onclick="clickImgBtn('btnTrue')"/></div>
+      </div>
+      <div class="row text-center imageRow">
+          <div class="col"><input type="image" src="img6.png" class="imgBtn" id="btn6" onclick="clickImgBtn('btn6')"/></div>
+          <div class="col"><input type="image" src="img7.png" class="imgBtn" id="btn7" onclick="clickImgBtn('btn7')"/></div>
+          <div class="col"><input type="image" src="img8.png" class="imgBtn" id="btn8" onclick="clickImgBtn('btn8')"/></div>
+      </div>
+      <hr>
+      <div class="row" id="bottomDiv">   
+        <p align="right"><input id="verifyBtn" type="button" value="VERIFICAR" onclick="clickCBtn()"></p>
+      </div>
+      </div>
+
+
+
+
+</body>
+</html>
